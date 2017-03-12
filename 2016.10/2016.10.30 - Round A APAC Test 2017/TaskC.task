@@ -1,0 +1,42 @@
+5 TaskC
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+129 6
+2
+200 100 100
+3
+10000 3000 4000 5000
+5
+3000 100 100 100 100 100
+2
+200 100 100
+3
+10000 3000 4000 5000
+5
+3000 100 100 100 100 100
+145 Case #1: 0.000000000000
+Case #2: 0.088963394693
+Case #3: -0.401790748826
+Case #4: 0.000000000000
+Case #5: 0.088963394693
+Case #6: -0.401790748826
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.10.30
+22 Round A APAC Test 2017
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

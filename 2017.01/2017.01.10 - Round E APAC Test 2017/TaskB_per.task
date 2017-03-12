@@ -1,0 +1,38 @@
+9 TaskB_per
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+132 4
+3
+13
+15
+121
+999999999000000001
+1000000000000000000
+1000000000000000000
+1000000000000000000
+1000000000000000000
+1000000000000000000
+43 Case #1: 2
+Case #2: 3
+Case #3: 2
+Case #4: 3
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+14 main.TaskB_per
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.10
+22 Round E APAC Test 2017
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

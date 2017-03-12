@@ -1,0 +1,40 @@
+10 C - Voting
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+8 5
+DDRRR
+
+2 D
+
+1
+1
+9 6
+DDRRRR
+
+2 R
+
+1
+2
+6 4
+RDRD
+1 R
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.12.23
+30 Codeforces Round #388 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

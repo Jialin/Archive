@@ -1,0 +1,33 @@
+7 REGIONS
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+65 4
+5 1 2 3 4 5
+89 189 111 34 7 200
+5 1 2 3 4 5
+89 189 111 34 7 200
+38 99116027
+515191750
+99116027
+515191750
+
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+12 main.REGIONS
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.07.24
+8 SNCKPB16
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

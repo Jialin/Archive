@@ -1,0 +1,36 @@
+37 B - Interactive Bulls and Cows (Easy)
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+24 0 1
+2 0
+1 1
+0 4
+2 1
+4 0
+
+29 8000
+0179
+3159
+3210
+0112
+0123
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.12.29
+17 Testing Round #13
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

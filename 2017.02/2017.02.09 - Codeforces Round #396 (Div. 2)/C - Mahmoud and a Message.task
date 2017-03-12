@@ -1,0 +1,41 @@
+25 C - Mahmoud and a Message
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+58 3
+aab
+2 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+6 3
+2
+2
+
+1
+1
+66 10
+abcdeabcde
+5 5 5 5 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+8 401
+4
+3
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.09
+30 Codeforces Round #396 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

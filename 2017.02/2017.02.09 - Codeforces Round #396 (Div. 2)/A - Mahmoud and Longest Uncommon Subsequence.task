@@ -1,0 +1,43 @@
+44 A - Mahmoud and Longest Uncommon Subsequence
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+4
+0
+11 abcd
+defgh
+
+2 5
+
+1
+1
+4 a
+a
+
+3 -1
+
+1
+2
+5 aa aa
+2 -1
+1
+3
+5 ab ac
+1 2
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.09
+30 Codeforces Round #396 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

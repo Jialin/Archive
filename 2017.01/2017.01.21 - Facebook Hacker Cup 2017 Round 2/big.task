@@ -1,0 +1,52 @@
+3 big
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+127 5
+5
+1 1 0 100
+1 0 0 100
+5
+1 1 0 100
+1 1 0 100
+10
+1 1 1 100
+1 0 0 100
+13
+3 3 0 100
+7 7 0 100
+800
+1 13107 5 12917
+1 12917 5 13107
+107 Case #1: 12.500000
+Case #2: 55.000000
+Case #3: 55.000000
+Case #4: 74630.000000
+Case #5: 256744091587.250000
+1
+1
+25 1
+13
+3 3 0 100
+7 7 0 100
+
+21 Case #1: 74630.000000
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+8 main.big
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.21
+32 Facebook Hacker Cup 2017 Round 2
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

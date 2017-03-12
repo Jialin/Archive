@@ -1,0 +1,33 @@
+19 C - Sasha and Array
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+40 5 4
+1 1 2 1 1
+2 1 5
+1 2 4 2
+2 2 4
+2 1 5
+
+5 5
+7
+9
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.09.28
+30 Codeforces Round #373 (Div. 1)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

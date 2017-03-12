@@ -1,0 +1,43 @@
+5 TaskC
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+107 2
+5 1
+this
+is
+a
+good
+day
+sithsiaodogyad
+5 3
+pt
+ybsb
+xnydt
+qtpb
+kw
+xnydttbpqtpqb
+yxdtntpbsby
+ptptxytdnsbybpt
+26 Case #1: 2
+Case #2: 1 1 1
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.12.07
+22 Round D APAC Test 2017
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

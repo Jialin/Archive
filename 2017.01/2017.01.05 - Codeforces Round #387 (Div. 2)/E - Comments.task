@@ -1,0 +1,48 @@
+12 E - Comments
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+46 hello,2,ok,0,bye,0,test,0,one,1,two,2,a,0,b,0
+
+35 3
+hello test one 
+ok bye two 
+a b 
+
+1
+1
+24 a,5,A,0,a,0,A,0,a,0,A,0
+
+16 2
+a 
+A a A a A 
+
+1
+2
+64 A,3,B,2,C,0,D,1,E,0,F,1,G,0,H,1,I,1,J,0,K,1,L,0,M,2,N,0,O,1,P,0
+
+38 4
+A K M 
+B F H L N O 
+C D G I P 
+E J 
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.05
+30 Codeforces Round #387 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

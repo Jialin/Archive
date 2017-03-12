@@ -1,0 +1,94 @@
+19 C - Vladik and chat
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+44 1
+2
+Vladik netman
+2
+?: Hello, Vladik!
+?: Hi
+
+34 netman: Hello, Vladik!
+Vladik: Hi
+
+1
+1
+71 1
+2
+netman vladik
+3
+netman:how are you?
+?:wrong message
+vladik:im fine
+
+11 Impossible
+
+1
+2
+284 2
+3
+netman vladik Fedosik
+2
+?: users are netman, vladik, Fedosik
+vladik: something wrong with this chat
+4
+netman tigerrrrr banany2001 klinchuh
+4
+?: tigerrrrr, banany2001, klinchuh, my favourite team ever, are you ready?
+klinchuh: yes, coach!
+?: yes, netman
+banany2001: yes of course.
+
+163 Impossible
+netman: tigerrrrr, banany2001, klinchuh, my favourite team ever, are you ready?
+klinchuh: yes, coach!
+tigerrrrr: yes, netman
+banany2001: yes of course.
+
+1
+3
+39 1
+4
+1 2 3 4
+4
+?:3 4
+?:1 3 4
+?:1 4
+?:1 4
+25 1:3 4
+2:1 3 4
+3:1 4
+2:1 4
+1
+4
+21 2
+1
+1
+1
+?:2
+1
+1
+1
+?:1
+14 1:2
+Impossible
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.08
+30 Codeforces Round #390 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

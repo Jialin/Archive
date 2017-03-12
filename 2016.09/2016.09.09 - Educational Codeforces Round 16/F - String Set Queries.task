@@ -1,0 +1,58 @@
+22 F - String Set Queries
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+39 5
+1 abc
+3 abcabc
+2 abc
+1 aba
+3 abababc
+
+4 2
+2
+
+1
+1
+69 10
+1 abc
+1 bcd
+1 abcd
+3 abcd
+2 abcd
+3 abcd
+2 bcd
+3 abcd
+2 abc
+3 abcd
+
+8 3
+2
+1
+0
+
+1
+2
+16 2
+1 abc
+3 abcabc
+1 2
+1
+8 src/main
+8 -Xmx768M
+4 Main
+10 main.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.09.09
+31 Educational Codeforces Round 16
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

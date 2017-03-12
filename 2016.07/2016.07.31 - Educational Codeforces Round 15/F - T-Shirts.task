@@ -1,0 +1,42 @@
+12 F - T-Shirts
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+22 3
+7 5
+3 5
+4 3
+2
+13 14
+
+5 2 3 
+
+1
+1
+34 2
+100 500
+50 499
+4
+50 200 150 100
+
+9 1 2 2 1 
+
+1
+8 src/main
+9 -Xmx1024M
+4 Main
+10 main.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.07.31
+31 Educational Codeforces Round 15
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

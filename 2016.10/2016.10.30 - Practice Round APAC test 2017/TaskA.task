@@ -1,0 +1,41 @@
+5 TaskA
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+30 8
+ag
+aa
+abcde
+x
+ag
+aa
+abcde
+x
+
+91 Case #1: 4
+Case #2: 1
+Case #3: 108
+Case #4: 1
+Case #5: 4
+Case #6: 1
+Case #7: 108
+Case #8: 1
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.10.30
+29 Practice Round APAC test 2017
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

@@ -1,0 +1,42 @@
+16 B - USB vs. PS/2
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+35 2 1 1
+4
+5 USB
+6 PS/2
+3 PS/2
+7 PS/2
+
+5 3 14
+
+1
+1
+32 4 4 0
+4
+5 USB
+6 USB
+3 USB
+7 USB
+
+4 4 21
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.29
+31 Educational Codeforces Round 17
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

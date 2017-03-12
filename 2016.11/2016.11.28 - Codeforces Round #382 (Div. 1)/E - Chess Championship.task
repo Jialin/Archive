@@ -1,0 +1,40 @@
+22 E - Chess Championship
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+14 5 5
+8 6 4 2 0
+
+34 yes
+XWWWW
+LXWWW
+LLXWW
+LLLXW
+LLLLX
+
+1
+1
+6 5 1
+9
+
+3 no
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.11.28
+30 Codeforces Round #382 (Div. 1)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

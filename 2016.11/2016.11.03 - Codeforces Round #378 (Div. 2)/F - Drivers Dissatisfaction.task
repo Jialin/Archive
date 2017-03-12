@@ -1,0 +1,58 @@
+27 F - Drivers Dissatisfaction
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+78 6 9
+1 3 1 1 3 1 2 2 2
+4 1 4 2 2 5 3 1 6
+1 2
+1 3
+2 3
+2 4
+2 5
+3 5
+3 6
+4 5
+5 6
+7
+
+23 0
+1 1
+3 1
+6 1
+7 2
+8 -5
+
+1
+1
+30 3 3
+9 5 1
+7 7 2
+2 1
+3 1
+3 2
+2
+
+10 5
+3 0
+2 5
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.11.03
+30 Codeforces Round #378 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

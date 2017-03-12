@@ -1,0 +1,39 @@
+22 A - New Year and Hurry
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+6 3 222
+
+2 2
+
+1
+1
+6 4 190
+
+2 4
+
+1
+2
+4 7 1
+
+2 7
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.12.30
+13 Good Bye 2016
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

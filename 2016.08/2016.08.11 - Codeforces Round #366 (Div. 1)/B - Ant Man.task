@@ -1,0 +1,32 @@
+11 B - Ant Man
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+99 7 4 3
+8 11 12 16 17 18 20
+17 16 20 2 20 5 13
+17 8 8 16 12 15 13
+12 4 16 4 15 7 6
+8 14 2 11 17 12 8
+
+4 139
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.08.11
+30 Codeforces Round #366 (Div. 1)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

@@ -1,0 +1,69 @@
+28 D - Mahmoud and a Dictionary
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+97 3 3 4
+hate love like
+1 love like
+2 love hate
+1 hate like
+love like
+love hate
+like hate
+hate like
+
+19 YES
+YES
+NO
+1
+2
+2
+2
+
+1
+1
+190 8 6 5
+hi welcome hello ihateyou goaway dog cat rat
+1 hi welcome
+1 ihateyou goaway
+2 hello ihateyou
+2 hi goaway
+2 hi hello
+1 hi hello
+dog cat
+dog hi
+hi hello
+ihateyou goaway
+welcome ihateyou
+
+33 YES
+YES
+YES
+YES
+NO
+YES
+3
+3
+1
+1
+2
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.02.09
+30 Codeforces Round #396 (Div. 2)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

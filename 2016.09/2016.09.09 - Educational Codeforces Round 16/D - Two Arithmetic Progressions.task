@@ -1,0 +1,45 @@
+31 D - Two Arithmetic Progressions
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+13 2 0 3 3 5 21
+
+2 3
+
+1
+1
+13 2 4 3 0 6 17
+
+2 2
+
+1
+2
+50 51 -1981067352 71 -414801558 -737219217 1160601982
+6 435075
+1
+3
+47 1000000000 1 2000000000 0 -2000000000 200000000
+1 0
+1
+4
+49 11 -1609620737 1315657088 -7 -162162918 287749240
+1 0
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.09.09
+31 Educational Codeforces Round 16
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

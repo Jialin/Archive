@@ -1,0 +1,54 @@
+9 TaskC_all
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+204 10
+2 2
+2d4 1d8
+10 2
+10d6-10 1d6+1
+8 3
+1d4+4 2d4 3d4-4
+40 3
+10d4 5d8 2d20
+10 4
+1d10 1d10+1 1d10+2 1d10+3
+2 2
+2d4 1d8
+10 2
+10d6-10 1d6+1
+8 3
+1d4+4 2d4 3d4-4
+40 3
+10d4 5d8 2d20
+10 4
+1d10 1d10+1 1d10+2 1d10+3
+210 Case #1: 1.000000000
+Case #2: 0.998519536
+Case #3: 0.250000000
+Case #4: 0.002500000
+Case #5: 0.400000000
+Case #6: 1.000000000
+Case #7: 0.998519536
+Case #8: 0.250000000
+Case #9: 0.002500000
+Case #10: 0.400000000
+1
+8 src/main
+8 -Xmx256M
+4 Main
+14 main.TaskC_all
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.06
+44 Facebook Hacker Cup 2017 Qualification Round
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

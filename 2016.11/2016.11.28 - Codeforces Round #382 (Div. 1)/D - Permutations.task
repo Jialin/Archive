@@ -1,0 +1,62 @@
+16 D - Permutations
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+16 2 3
+1 1
+1 2
+2 2
+
+10 NO
+YES
+NO
+
+1
+1
+16 3 3
+1 1
+2 2
+3 3
+
+9 NO
+NO
+NO
+
+1
+2
+32 3 7
+3 3
+3 1
+1 3
+1 1
+2 2
+1 2
+2 1
+
+23 YES
+NO
+NO
+NO
+YES
+NO
+NO
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.11.28
+30 Codeforces Round #382 (Div. 1)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

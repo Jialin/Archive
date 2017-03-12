@@ -1,0 +1,88 @@
+9 TaskA_all
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+218 10
+3
+0 0
+0 1
+0 3
+5
+0 0
+0 1
+0 2
+0 3
+0 4
+4
+0 0
+0 100
+100 0
+100 100
+4
+0 0
+-3 4
+0 5
+-5 0
+6
+5 6
+6 5
+7 6
+6 7
+7 8
+8 7
+3
+0 0
+0 1
+0 3
+5
+0 0
+0 1
+0 2
+0 3
+0 4
+4
+0 0
+0 100
+100 0
+100 100
+4
+0 0
+-3 4
+0 5
+-5 0
+6
+5 6
+6 5
+7 6
+6 7
+7 8
+8 7
+112 Case #1: 0
+Case #2: 4
+Case #3: 4
+Case #4: 3
+Case #5: 12
+Case #6: 0
+Case #7: 4
+Case #8: 4
+Case #9: 3
+Case #10: 12
+1
+8 src/main
+8 -Xmx256M
+4 Main
+14 main.TaskA_all
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.01.06
+44 Facebook Hacker Cup 2016 Qualification Round
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

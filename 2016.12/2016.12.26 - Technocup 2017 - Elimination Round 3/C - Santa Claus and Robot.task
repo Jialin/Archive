@@ -1,0 +1,56 @@
+25 C - Santa Claus and Robot
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+7 4
+RURD
+
+2 2
+
+1
+1
+9 6
+RRULDD
+
+2 2
+
+1
+2
+30 26
+RRRULURURUULULLLDLDDRDRDLD
+
+2 7
+
+1
+3
+6 3
+RLL
+
+2 2
+
+1
+4
+7 4
+LRLR
+
+2 4
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.12.26
+36 Technocup 2017 - Elimination Round 3
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

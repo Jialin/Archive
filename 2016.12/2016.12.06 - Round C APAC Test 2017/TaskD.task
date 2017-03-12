@@ -1,0 +1,54 @@
+5 TaskD
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+103 6
+3
+10 2
+1 10
+10 3
+3
+10 1
+10 10
+1 10
+3
+10 2
+1 10
+4 9
+3
+10 2
+1 10
+10 3
+3
+10 1
+10 10
+1 10
+3
+10 2
+1 10
+4 9
+75 Case #1: NO
+Case #2: YES
+Case #3: YES
+Case #4: NO
+Case #5: YES
+Case #6: YES
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.12.06
+22 Round C APAC Test 2017
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
