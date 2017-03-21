@@ -1,0 +1,117 @@
+22 2106 - Deserialization
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+95 2 5
+struct a
+ string
+struct b
+ a
+ int
+000000020000000361626300000004000000010000000568656C6C6F
+
+40 b
+ a
+  string abc
+ int 4
+a
+ string hello
+1
+1
+152 2 5
+struct a
+ string
+struct b
+ a
+ int
+000000020000000361626300000004000000010000000568656C6C6F000000020000000361626300000004000000010000000568656C6C6F
+
+
+81 b
+ a
+  string abc
+ int 4
+a
+ string hello
+b
+ a
+  string abc
+ int 4
+a
+ string hello
+1
+2
+58 3 6
+struct a
+ int
+struct b
+ a
+struct c
+ b
+0000000300018894
+22 c
+ b
+  a
+   int 100500
+1
+3
+57 1 2
+struct a
+ string
+000000010000000A61626364656162636465
+20 a
+ string abcdeabcde
+1
+4
+144 10 20
+struct a
+ int
+struct b
+ a
+struct c
+ b
+struct d
+ c
+struct e
+ d
+struct f
+ e
+struct g
+ f
+struct h
+ g
+struct i
+ h
+struct j
+ i
+0000000A0000002A
+81 j
+ i
+  h
+   g
+    f
+     e
+      d
+       c
+        b
+         a
+          int 42
+1
+8 src/main
+15 -Xmx64M -Xss64M
+4 Main
+13 main.Task2106
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.12
+9 Volume 12
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

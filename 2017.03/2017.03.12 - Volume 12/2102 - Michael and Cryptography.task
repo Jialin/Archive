@@ -1,0 +1,44 @@
+31 2102 - Michael and Cryptography
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+2 2
+
+2 No
+1
+1
+8 1048576
+
+3 Yes
+1
+2
+12 10000000000
+
+3 Yes
+1
+3
+19 1000000000000000000
+2 No
+1
+4
+18 999999999999999999
+2 No
+1
+8 src/main
+15 -Xmx64M -Xss64M
+4 Main
+13 main.Task2102
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.12
+9 Volume 12
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
