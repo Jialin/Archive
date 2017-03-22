@@ -1,0 +1,74 @@
+18 D - Draw Brackets!
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+11 8
+[[][]][]
+
+90 +-        -++- -+
+|+- -++- -+||   |
+||   ||   |||   |
+|+- -++- -+||   |
++-        -++- -+
+
+1
+1
+9 6
+[[[]]]
+
+70 +-     -+
+|+-   -+|
+||+- -+||
+|||   |||
+||+- -+||
+|+-   -+|
++-     -+
+
+1
+2
+9 6
+[[][]]
+
+65 +-        -+
+|+- -++- -+|
+||   ||   ||
+|+- -++- -+|
++-        -+
+
+1
+3
+5 2
+[]
+
+18 +- -+
+|   |
++- -+
+
+1
+4
+7 4
+[][]
+
+33 +- -++- -+
+|   ||   |
++- -++- -+
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.21
+29 VK Cup 2017 - Qualification 2
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
