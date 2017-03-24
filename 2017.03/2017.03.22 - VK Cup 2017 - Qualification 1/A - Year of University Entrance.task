@@ -1,0 +1,35 @@
+31 A - Year of University Entrance
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+17 3
+2014 2016 2015
+
+5 2015
+
+1
+1
+7 1
+2050
+
+5 2050
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.03.22
+29 VK Cup 2017 - Qualification 1
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
