@@ -1,0 +1,40 @@
+16 C - The Tag Game
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+16 4 3
+1 2
+2 3
+2 4
+
+2 4
+
+1
+1
+20 5 2
+1 2
+2 3
+3 4
+2 5
+
+2 6
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.06.10
+31 Educational Codeforces Round 22
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

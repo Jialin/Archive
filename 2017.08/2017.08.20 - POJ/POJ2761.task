@@ -1,0 +1,29 @@
+7 POJ2761
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+29 7 2
+1 5 2 6 3 7 4
+1 5 3
+2 7 1
+3 3
+2
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+12 main.POJ2761
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.08.20
+3 POJ
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

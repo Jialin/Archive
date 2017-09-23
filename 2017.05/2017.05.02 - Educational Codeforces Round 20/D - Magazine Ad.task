@@ -1,0 +1,35 @@
+15 D - Magazine Ad
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+19 4
+garage for sa-le
+
+2 7
+
+1
+1
+36 4
+Edu-ca-tion-al Ro-unds are so fun
+
+3 10
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.05.02
+31 Educational Codeforces Round 20
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
