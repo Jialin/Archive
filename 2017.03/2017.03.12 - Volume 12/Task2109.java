@@ -1,6 +1,5 @@
 package main;
 
-import template.collections.intervaltree.AbstractSimpleIntervalTree;
 import template.graph.lca.TreeLCA;
 import template.graph.tree.Tree;
 import template.io.QuickScanner;

@@ -1,7 +1,7 @@
 package main;
 
 import template.array.IntArrayUtils;
-import template.collections.intervaltree.impl.IntMinValueIntervalTreeWithSetRange;
+import template.collections.intervaltree.impl.IntMinIntervalTreeSupportSet;
 import template.collections.list.IntArrayList;
 import template.collections.rmq.IntMinimumRMQ;
 import template.io.QuickScanner;
@@ -19,10 +19,10 @@ public class TaskG {
     calc();
   }
 
-  IntMinValueIntervalTreeWithSetRange itree;
+  IntMinIntervalTreeSupportSet itree;
 
   void calc() {
-    itree = new IntMinValueIntervalTreeWithSetRange(oldMinValue.length);
+    itree = new IntMinIntervalTreeSupportSet(oldMinValue.length, false);
     itree.init(oldMinValue.length, oldMinValue);
     for (int queryIdx = 0; queryIdx < queryCnt; ++queryIdx) {
       if (op[queryIdx] == 1) {

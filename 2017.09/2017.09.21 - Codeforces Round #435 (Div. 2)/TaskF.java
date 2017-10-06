@@ -1,5 +1,7 @@
 package main;
 
+
+
 import template.collections.intervaltree.AbstractIntervalTree;
 import template.collections.intervaltree.impl.IntMaxIntervalTree;
 import template.collections.list.IntArrayList;
@@ -133,7 +135,7 @@ public class TaskF {
     }
 
     @Override
-    public void merge(int idx, int leftIdx, int rightIdx) {
+    public void merge(int leftIdx, int rightIdx, int idx) {
       mergeOneSide(
           leftH[idx], leftD[idx],
           leftH[leftIdx], leftD[leftIdx],
@@ -153,7 +155,7 @@ public class TaskF {
     }
 
     @Override
-    public void copy(int destIdx, int sourceIdx) {
+    public void copyForCalc(int sourceIdx, int destIdx) {
       leftD[destIdx].clear();
       leftD[destIdx].addAll(leftD[sourceIdx]);
       leftH[destIdx].clear();

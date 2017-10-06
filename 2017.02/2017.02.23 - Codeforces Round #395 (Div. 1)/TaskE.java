@@ -1,7 +1,6 @@
 package main;
 
 import template.collections.disjointset.DisjointSet;
-import template.collections.intervaltree.AbstractSimpleIntervalTree;
 import template.collections.list.IntArrayList;
 import template.io.QuickScanner;
 import template.io.QuickWriter;

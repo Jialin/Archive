@@ -1,6 +1,5 @@
 package main;
 
-import template.collections.intervaltree.AbstractSimpleIntervalTree;
 import template.io.QuickScanner;
 import template.io.QuickWriter;
 
