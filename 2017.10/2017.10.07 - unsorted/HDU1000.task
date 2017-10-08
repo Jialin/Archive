@@ -1,0 +1,25 @@
+7 HDU1000
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+3 1 1
+1 2
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+12 main.HDU1000
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.10.07
+0 
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
