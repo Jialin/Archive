@@ -1,0 +1,30 @@
+25 2058 - 100500 palidnromes
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+1
+0
+5 abaa
+
+23 1 -2 
+-1 2 
+1 -2 
+3 2 
+
+1
+8 src/main
+15 -Xmx64M -Xss64M
+4 Main
+13 main.Task2058
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.01.01
+9 Volume 11
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
