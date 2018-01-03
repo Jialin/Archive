@@ -1,0 +1,35 @@
+19 A - Masha and Bears
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 50 30 10 10
+
+9 50
+30
+10
+
+1
+1
+13 100 50 10 21
+
+3 -1
+
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.01.02
+75 Codeforces Round #454 (Div. 2, based on Technocup 2018 Elimination Round 4)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1

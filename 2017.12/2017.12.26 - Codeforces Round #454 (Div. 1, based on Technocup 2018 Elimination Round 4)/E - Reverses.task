@@ -1,0 +1,41 @@
+12 E - Reverses
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+20 abcxxxdef
+cbaxxxfed
+
+10 2
+7 9
+1 3
+
+1
+1
+7 abc
+cba
+5 1
+1 3
+1
+2
+101 bcacaacbaaabcaabbbbaabcbbacacbbccbaabccbcaaaaaabcb
+bcacabcaabbcbaabbbbaacbaaaccbbcacbaabcccbaaaaaabcb
+-1
+1
+8 src/main
+8 -Xmx256M
+4 Main
+10 main.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.12.26
+75 Codeforces Round #454 (Div. 1, based on Technocup 2018 Elimination Round 4)
+1
+24 template.io.QuickScanner
+23 template.io.QuickWriter
+0
+1
