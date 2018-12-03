@@ -1,0 +1,39 @@
+{
+  "name" : "UVA202",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "76 25\n5 43\n1 397\n76 25\n5 43\n1 397",
+    "output" : "76/25 = 3.04(0)\n   1 = number of digits in repeating cycle\n5/43 = 0.(116279069767441860465)\n   21 = number of digits in repeating cycle\n1/397 = 0.(00251889168765743073047858942065491183879093198992...)\n   99 = number of digits in repeating cycle\n76/25 = 3.04(0)\n   1 = number of digits in repeating cycle\n5/43 = 0.(116279069767441860465)\n   21 = number of digits in repeating cycle\n1/397 = 0.(00251889168765743073047858942065491183879093198992...)\n   99 = number of digits in repeating cycle",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 6\n5 7\n1 250\n300 31\n655 990\n1 6\n5 7\n1 250\n300 31\n655 990",
+    "output" : "1/6 = 0.1(6)\n   1 = number of digits in repeating cycle\n5/7 = 0.(714285)\n   6 = number of digits in repeating cycle\n1/250 = 0.004(0)\n   1 = number of digits in repeating cycle\n300/31 = 9.(677419354838709)\n   15 = number of digits in repeating cycle\n655/990 = 0.6(61)\n   2 = number of digits in repeating cycle\n1/6 = 0.1(6)\n   1 = number of digits in repeating cycle\n5/7 = 0.(714285)\n   6 = number of digits in repeating cycle\n1/250 = 0.004(0)\n   1 = number of digits in repeating cycle\n300/31 = 9.(677419354838709)\n   15 = number of digits in repeating cycle\n655/990 = 0.6(61)\n   2 = number of digits in repeating cycle",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA202",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.22",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "UVA401",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "NOTAPALINDROME\nISAPALINILAPASI\n2A3MEAS\nATOYOTA",
+    "output" : "NOTAPALINDROME -- is not a palindrome.\n\nISAPALINILAPASI -- is a regular palindrome.\n\n2A3MEAS -- is a mirrored string.\n\nATOYOTA -- is a mirrored palindrome.\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "NOTAPALINDROME\nISAPALINILAPASI\n2A3MEAS\nATOYOTA\nNOTAPALINDROME\nISAPALINILAPASI\n2A3MEAS\nATOYOTA",
+    "output" : "NOTAPALINDROME -- is not a palindrome.\n\nISAPALINILAPASI -- is a regular palindrome.\n\n2A3MEAS -- is a mirrored string.\n\nATOYOTA -- is a mirrored palindrome.\n\nNOTAPALINDROME -- is not a palindrome.\n\nISAPALINILAPASI -- is a regular palindrome.\n\n2A3MEAS -- is a mirrored string.\n\nATOYOTA -- is a mirrored palindrome.\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA401",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.19",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,34 @@
+{
+  "name" : "UVA232",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 2\nAT\n*O\n6 7\nAIM*DEN\n*ME*ONE\nUPON*TO\nSO*ERIN\n*SA*OR*\nIES*DEA\n2 2\nAT\n*O\n6 7\nAIM*DEN\n*ME*ONE\nUPON*TO\nSO*ERIN\n*SA*OR*\nIES*DEA\n0",
+    "output" : "puzzle #1:\nAcross\n  1.AT\n  3.O\nDown\n  1.A\n  2.TO\n\npuzzle #2:\nAcross\n  1.AIM\n  4.DEN\n  7.ME\n  8.ONE\n  9.UPON\n 11.TO\n 12.SO\n 13.ERIN\n 15.SA\n 17.OR\n 18.IES\n 19.DEA\nDown\n  1.A\n  2.IMPOSE\n  3.MEO\n  4.DO\n  5.ENTIRE\n  6.NEON\n  9.US\n 10.NE\n 14.ROD\n 16.AS\n 18.I\n 20.A\n\npuzzle #3:\nAcross\n  1.AT\n  3.O\nDown\n  1.A\n  2.TO\n\npuzzle #4:\nAcross\n  1.AIM\n  4.DEN\n  7.ME\n  8.ONE\n  9.UPON\n 11.TO\n 12.SO\n 13.ERIN\n 15.SA\n 17.OR\n 18.IES\n 19.DEA\nDown\n  1.A\n  2.IMPOSE\n  3.MEO\n  4.DO\n  5.ENTIRE\n  6.NEON\n  9.US\n 10.NE\n 14.ROD\n 16.AS\n 18.I\n 20.A",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA232",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.22",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "UVA227",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "TRGSJ\nXDOKI\nM VLN\nWPABE\nUQHCF\nARRBBL0\nABCDE\nFGHIJ\nKLMNO\nPQRS \nTUVWX\nAAA\nLLLL0\nABCDE\nFGHIJ\nKLMNO\nPQRS \nTUVWX\nAAAAABBRRRLL0\nTRGSJ\nXDOKI\nM VLN\nWPABE\nUQHCF\nARRBBL0\nABCDE\nFGHIJ\nKLMNO\nPQRS \nTUVWX\nAAA\nLLLL0\nABCDE\nFGHIJ\nKLMNO\nPQRS \nTUVWX\nAAAAABBRRRLL0\nZ",
+    "output" : "Puzzle #1:\nT R G S J\nX O K L I\nM D V B N\nW P A E\nU Q H C F\n\nPuzzle #2:\nA B C D\nF G H I E\nK L M N J\nP Q R S O\nT U V W X\n\nPuzzle #3:\nThis puzzle has no final configuration.\n\nPuzzle #4:\nT R G S J\nX O K L I\nM D V B N\nW P A E\nU Q H C F\n\nPuzzle #5:\nA B C D\nF G H I E\nK L M N J\nP Q R S O\nT U V W X\n\nPuzzle #6:\nThis puzzle has no final configuration.",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "TRGSJ\nXDOKI\n MVLN\nWPABE\nUQHCF\n0\nTRGSJ\nXDOKI\nMVLN\nWPABE\nUQHCF\n0\nTRGSJ\nXDOKI\n MVLN\nWPABE\nUQHCF\n0\nTRGSJ\nXDOKI\nMVLN\nWPABE\nUQHCF\n0\nTRGSJ\nXDOKI\nMVLN\nWPABE\nUQHCF\nX0\nZ",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA227",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.22",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

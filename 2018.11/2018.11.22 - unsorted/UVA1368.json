@@ -1,0 +1,34 @@
+{
+  "name" : "UVA1368",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n5 8\nTATGATAC\nTAAGCTAC\nAAAGATCC\nTGAGATAC\nTAAGATGT\n4 10\nACGTACGTAC\nCCGTACGTAG\nGCGTACGTAT\nTCGTACGTAA\n6 10\nATGTTACCAT\nAAGTTACGAT\nAACAAAGCAA\nAAGTTACCTT\nAAGTTACCAA\nTACTTACCAA\n5 8\nTATGATAC\nTAAGCTAC\nAAAGATCC\nTGAGATAC\nTAAGATGT\n4 10\nACGTACGTAC\nCCGTACGTAG\nGCGTACGTAT\nTCGTACGTAA\n6 10\nATGTTACCAT\nAAGTTACGAT\nAACAAAGCAA\nAAGTTACCTT\nAAGTTACCAA\nTACTTACCAA",
+    "output" : "TAAGATAC\n7\nACGTACGTAA\n6\nAAGTTACCAA\n12\nTAAGATAC\n7\nACGTACGTAA\n6\nAAGTTACCAA\n12",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA1368",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.22",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

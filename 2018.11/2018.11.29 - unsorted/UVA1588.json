@@ -1,0 +1,39 @@
+{
+  "name" : "UVA1588",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2112112112\n2212112\n12121212\n21212121\n2211221122\n21212\n2112112112\n2212112\n12121212\n21212121\n2211221122\n21212",
+    "output" : "10\n8\n15\n10\n8\n15",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "22221\n122222\n122222\n22221\n\n22222\n122222\n122222\n22222\n",
+    "output" : "9\n9\n10\n10",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA1588",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.29",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
