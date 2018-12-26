@@ -1,0 +1,34 @@
+{
+  "name" : "gift1_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "gift1.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "gift1.out"
+  },
+  "tests" : [ {
+    "input" : "5\ndave\nlaura\nowen\nvick\namr\ndave\n200 3\nlaura\nowen\nvick\nowen\n500 1\ndave\namr\n150 2\nvick\nowen\nlaura\n0 2\namr\nvick\nvick\n0 0",
+    "output" : "dave 302\nlaura 66\nowen -359\nvick 141\namr -150",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "gift1",
+  "taskClass" : "main.gift1_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.24",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
