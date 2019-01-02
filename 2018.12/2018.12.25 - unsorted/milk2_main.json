@@ -1,0 +1,39 @@
+{
+  "name" : "milk2_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "milk2.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "milk2.out"
+  },
+  "tests" : [ {
+    "input" : "3\n300 1000\n700 1200\n1500 2100",
+    "output" : "900 300",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n300 1000\n1500 2100\n700 1200",
+    "output" : "900 300",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "milk2",
+  "taskClass" : "main.milk2_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.25",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

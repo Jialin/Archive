@@ -1,0 +1,50 @@
+{
+  "name" : "palsquare_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "palsquare.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "palsquare.out"
+  },
+  "tests" : [ {
+    "input" : "10",
+    "output" : "1 1\n2 4\n3 9\n11 121\n22 484\n26 676\n101 10201\n111 12321\n121 14641\n202 40804\n212 44944\n264 69696",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "20",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "19",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "18",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "17",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "palsquare",
+  "taskClass" : "main.palsquare_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.30",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,34 @@
+{
+  "name" : "transform_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "transform.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "transform.out"
+  },
+  "tests" : [ {
+    "input" : "3\n@-@\n---\n@@-\n@-@\n@--\n--@",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "transform",
+  "taskClass" : "main.transform_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.26",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

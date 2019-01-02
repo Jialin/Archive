@@ -1,0 +1,42 @@
+{
+  "name" : "dualpal_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "dualpal.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "dualpal.out"
+  },
+  "tests" : [ {
+    "input" : "3 25",
+    "output" : "26\n27\n28",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "15 25",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "15 9999",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "dualpal",
+  "taskClass" : "main.dualpal_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.02",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
