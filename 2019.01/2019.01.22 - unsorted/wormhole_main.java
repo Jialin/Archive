@@ -44,9 +44,9 @@ public class wormhole_main {
       }
       return;
     }
-    int first = dl.first;
+    int first = dl.first();
     dl.cover(first);
-    for (int x = dl.first; x >= 0; x = dl.next[x]) {
+    for (int x = dl.first(); x < n; x = dl.next(x)) {
       dl.cover(x);
       jump[first] = x;
       jump[x] = first;
