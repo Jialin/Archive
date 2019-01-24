@@ -1,0 +1,34 @@
+{
+  "name" : "skidesign_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "skidesign.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "skidesign.out"
+  },
+  "tests" : [ {
+    "input" : "5\n20\n4\n1\n24\n21",
+    "output" : "18",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "skidesign",
+  "taskClass" : "main.skidesign_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.22",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
