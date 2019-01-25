@@ -1,0 +1,34 @@
+{
+  "name" : "UVA489",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\ncheese\nchese\n2\ncheese\nabcdefg\n3\ncheese\nabcdefgij\n4\ncheese\nchese\n5\ncheese\nabcdefg\n6\ncheese\nabcdefgij\n-1",
+    "output" : "Round 1\nYou win.\nRound 2\nYou chickened out.\nRound 3\nYou lose.\nRound 4\nYou win.\nRound 5\nYou chickened out.\nRound 6\nYou lose.",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA489",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.04",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

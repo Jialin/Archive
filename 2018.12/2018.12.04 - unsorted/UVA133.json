@@ -1,0 +1,34 @@
+{
+  "name" : "UVA133",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 4 3\n10 4 3\n0 0 0",
+    "output" : "  4  8,  9  5,  3  1,  2  6, 10,  7\n  4  8,  9  5,  3  1,  2  6, 10,  7",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA133",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.04",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

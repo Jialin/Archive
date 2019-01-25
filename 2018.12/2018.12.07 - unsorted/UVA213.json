@@ -1,0 +1,34 @@
+{
+  "name" : "UVA213",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "TNM AEIOU\n0010101100011\n1010001001110110011\n11000\n$#**\\\n0100000101101100011100101000\nTNM AEIOU\n0010101100011\n1010001001110110011\n11000\n$#**\\\n0100000101101100011100101000",
+    "output" : "TAN ME\n##*\\$\nTAN ME\n##*\\$",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "main.UVA213",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.07",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
