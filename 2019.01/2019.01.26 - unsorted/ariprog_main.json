@@ -1,0 +1,29 @@
+{
+  "name" : "ariprog_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "ariprog.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "ariprog.out"
+  },
+  "tests" : [ ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "ariprog",
+  "taskClass" : "main.ariprog_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.26",
+  "contestName" : "",
+  "truncate" : false,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
