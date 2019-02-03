@@ -1,0 +1,43 @@
+{
+  "name" : "sprime_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "sprime.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "sprime.out"
+  },
+  "tests" : [ {
+    "input" : "4",
+    "output" : "2333\n2339\n2393\n2399\n2939\n3119\n3137\n3733\n3739\n3793\n3797\n5939\n7193\n7331\n7333\n7393",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1",
+    "output" : "2\n3\n5\n7",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "sprime",
+  "taskClass" : "main.sprime_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.02",
+  "contestName" : "",
+  "truncate" : false,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

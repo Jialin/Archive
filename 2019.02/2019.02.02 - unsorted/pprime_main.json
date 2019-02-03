@@ -1,0 +1,38 @@
+{
+  "name" : "pprime_main",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "pprime.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "pprime.out"
+  },
+  "tests" : [ {
+    "input" : "5 500",
+    "output" : "5\n7\n11\n101\n131\n151\n181\n191\n313\n353\n373\n383",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 100000000",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "pprime",
+  "taskClass" : "main.pprime_main",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.02",
+  "contestName" : "",
+  "truncate" : false,
+  "inputClass" : "template.io.QuickScanner",
+  "outputClass" : "template.io.QuickWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : true,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
